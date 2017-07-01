@@ -1,0 +1,39 @@
+@using WebTeste.Models
+@model Pessoa
+
+@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+    ViewBag.Tittle = "Criar Pessoa";
+}
+
+<div class="jumbotron">
+    <h1>ASP.NET MVC Core</h1>
+    <p class="lead">Criar uma nova pessoa. Preenche os campos e depois clique no salvar.</p>
+</div>
+
+
+@using (Html.BeginForm())
+{
+    <fieldset>
+        <legend>Criar uma nova pessoa</legend>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.CPF)
+        </div>
+        <div class="editor-field">
+            @Html.TextBoxFor(model => model.CPF)
+        </div>
+
+        <br/>
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Nome)
+        </div>
+        <div class="editor-field">
+            @Html.TextBoxFor(model => model.Nome)
+        </div>
+
+        <input type="submit" value="Salvar" />
+
+    </fieldset>
+
+<p><br></p>
+}        

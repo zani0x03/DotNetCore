@@ -1,0 +1,19 @@
+@model WebTeste.Models.Pessoa
+
+@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+    ViewBag.Tittle = "Lendo a sessão";
+}
+
+<div class="jumbotron">
+    <h1>ASP.NET Core MVC</h1>
+    <p class="lead">Recebendo os dados da sessão</p>
+    <p><a href="/Home" class="btn btn-primary btn-large">Voltar para Home</a>
+</div>
+
+<div>
+    <p>CPF: @(Model != null ? Model.CPF : "")</p>
+    <p>Nome: @(Model != null ? Model.Nome : "") </p>    
+</div>
+
+<p><br></p>
