@@ -1,0 +1,10 @@
+/media/veracrypt2/empresas/zp3/Fontes/GitHub/DotNetCore/WebAPI/PessoaAPI/bin/Debug/netcoreapp2.0/PessoaAPI.deps.json
+/media/veracrypt2/empresas/zp3/Fontes/GitHub/DotNetCore/WebAPI/PessoaAPI/bin/Debug/netcoreapp2.0/PessoaAPI.runtimeconfig.json
+/media/veracrypt2/empresas/zp3/Fontes/GitHub/DotNetCore/WebAPI/PessoaAPI/bin/Debug/netcoreapp2.0/PessoaAPI.runtimeconfig.dev.json
+/media/veracrypt2/empresas/zp3/Fontes/GitHub/DotNetCore/WebAPI/PessoaAPI/bin/Debug/netcoreapp2.0/PessoaAPI.dll
+/media/veracrypt2/empresas/zp3/Fontes/GitHub/DotNetCore/WebAPI/PessoaAPI/bin/Debug/netcoreapp2.0/PessoaAPI.pdb
+/media/veracrypt2/empresas/zp3/Fontes/GitHub/DotNetCore/WebAPI/PessoaAPI/obj/Debug/netcoreapp2.0/PessoaAPI.csproj.CoreCompileInputs.cache
+/media/veracrypt2/empresas/zp3/Fontes/GitHub/DotNetCore/WebAPI/PessoaAPI/obj/Debug/netcoreapp2.0/PessoaAPI.AssemblyInfoInputs.cache
+/media/veracrypt2/empresas/zp3/Fontes/GitHub/DotNetCore/WebAPI/PessoaAPI/obj/Debug/netcoreapp2.0/PessoaAPI.AssemblyInfo.cs
+/media/veracrypt2/empresas/zp3/Fontes/GitHub/DotNetCore/WebAPI/PessoaAPI/obj/Debug/netcoreapp2.0/PessoaAPI.dll
+/media/veracrypt2/empresas/zp3/Fontes/GitHub/DotNetCore/WebAPI/PessoaAPI/obj/Debug/netcoreapp2.0/PessoaAPI.pdb

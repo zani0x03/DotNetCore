@@ -1,0 +1,51 @@
+@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+    ViewBag.Tittle = "Home Page";
+}
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+<div class="jumbotron">
+    <p><a href="#" id="get-data" class="btn btn-primary btn-large">Recuperar informações Json</a></p>
+
+    <table id="minhaTbl">
+        <thead>
+            <tr>
+                <th>CPF</th>
+                <th>Nome</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</div>
+
+<script>
+$(document).ready(
+    function(){
+        $('#get-data').click(function(){
+            var showData = $('#show-data');
+            $.getJSON('/api/apipessoa/get', function (data){
+                console.log(data);
+                var tblRef = document.getElementById('minhaTbl').getElementsByTagName('tbody')[0];
+                var newRow = tblRef.insertRow(tblRef.rows.length);
+
+                var itens = '';
+
+                for (var i=0; i< data.length; i++){
+                    var newRow =tblRef.insertRow(tblRef.rows.length);
+
+                    var newCell1 =newRow.insertCell(0);
+                    var newText1 =document.createTextNode(data[i].cpf);
+                    newCell1.appendChild(newText1);
+
+
+                    var newCell2 = newRow.insertCell(1);
+                    var newText2 = document.createTextNode(data[i].nome);
+                    newCell2.appendChild(newText2);
+                }
+            });
+            showData.text('Carregando arquivo Json');
+        });
+    });
+</script>
