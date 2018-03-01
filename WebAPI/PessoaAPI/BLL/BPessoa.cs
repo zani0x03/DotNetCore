@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using PessoaAPI.Models;
-using PessoaAPI.Dados;
+using PessoaAPI.DAL;
 
 namespace PessoaAPI.BLL
 {
