@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/ztiago3/Dev/DotNetCore/ProjetoVSCodeLinux/ProjetoVSCodeLinux/ProjetoVSCodeLinux.csproj": {}
+  },
+  "projects": {
+    "/home/ztiago3/Dev/DotNetCore/ProjetoVSCodeLinux/ProjetoVSCodeLinux/ProjetoVSCodeLinux.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ztiago3/Dev/DotNetCore/ProjetoVSCodeLinux/ProjetoVSCodeLinux/ProjetoVSCodeLinux.csproj",
+        "projectName": "ProjetoVSCodeLinux",
+        "projectPath": "/home/ztiago3/Dev/DotNetCore/ProjetoVSCodeLinux/ProjetoVSCodeLinux/ProjetoVSCodeLinux.csproj",
+        "packagesPath": "/home/ztiago3/.nuget/packages/",
+        "outputPath": "/home/ztiago3/Dev/DotNetCore/ProjetoVSCodeLinux/ProjetoVSCodeLinux/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/ztiago3/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
